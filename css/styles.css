@@ -1,4 +1,29 @@
-body {
-  background-color: white;
+/*
+#212121 чорний основний
+#000000 чорний темніший 
+#757575 сірий другий
+#ffffff білий
+#2196F3 синій фокуc
+*/
+.list {
+  list-style-type: none;
 }
-/* comentarij*/
+/*Site nav*/
+.logo:hover {
+  color: #2196f3;
+}
+
+.site-nav .link {
+  color: #212121;
+}
+.auth-nav .link {
+  color: #757575;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+  color: #2196f3;
+}
