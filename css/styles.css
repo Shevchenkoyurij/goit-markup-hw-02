@@ -1,16 +1,27 @@
 /*
-#212121 чорний основний
-#000000 чорний темніший 
-#757575 сірий другий
-#ffffff білий
-#2196F3 синій фокуc
+#212121 Чорний основний
+#000000 Чорний темніший 
+#757575 Сірий другий
+#ffffff Білий
+#2196F3 Синій фокуc
 */
+:root {
+  --primary-text-color: #212121;
+  --page-hero-text: #212121;
+  --main-accent: #cc1515;
+  --new-accent: #757575;
+  --pimary-bg-color: #ffffff;
+}
+body {
+}
+
 .list {
   list-style-type: none;
 }
 /*Site nav*/
 .logo:hover {
-  color: #2196f3;
+  --new-accent: rgb(0, 0, 0)
+  color: var(--new-accent);
 }
 
 .site-nav .link {
@@ -35,4 +46,11 @@
 }
 .adress {
   color: #757575;
+}
+.section-nav-portfolio{
+
+/*Button*/
+.button {
+  color: var(--title-text-color)
+  background-color: var(--pimary-bg-color)
 }
