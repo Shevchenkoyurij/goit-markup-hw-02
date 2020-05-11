@@ -13,6 +13,11 @@
   --pimary-bg-color: #ffffff;
 }
 body {
+  font-family: Roboto, sans-serif;
+}
+/* Logo */
+.logo{
+  font-family: Raleway, sans-serif;
 }
 
 /* Применится ко всем абзацам на странице */
@@ -35,6 +40,7 @@ a {
   color: var(--new-accent);
 }
 
+}
 .site-nav .link {
   color: #212121;
 }
@@ -65,3 +71,8 @@ a {
   color: var(--title-text-color)
   background-color: var(--pimary-bg-color)
 }
+/* Шрифти 
+Raleway
+Roboto
+
+*/
