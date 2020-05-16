@@ -27,6 +27,7 @@ line-height: 31px;
   font-size: 26px;
 line-height: 31px;
 }
+/* Logo  цвет*/
 .logo {
         color: #2196f3;
       }
@@ -47,12 +48,7 @@ line-height: 31px;
     color: var(--pimary-bg-color);
     background-color: var(--main-accent);
 }
-.button .link:hover {
-       color:  #2196f3;
-      }
-.button .link:focus {
-  color: orange;
-}
+
 /* Применится ко всем абзацам на странице */
 p {
   font-size: 16px;
