@@ -17,6 +17,7 @@
 body {
   font-family: Roboto, sans-serif;
   background-color: rgb(156, 151, 151);
+  /* тимчасовий колір*/
 }
 /* Logo  шрифт*/
 .logo{
@@ -62,6 +63,7 @@ line-height: 30px;
 p {
   font-size: 16px;
 }
+/*Страница студия*/
 h1 {
   font-family: Roboto; sans-serif;
   font-style: normal;
@@ -126,6 +128,30 @@ font-weight: bold;
 font-size: 14px;
 line-height: 16px;
 }
+/* Страница портфолио*/
+.links {
+  font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+}
+.names {
+  font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 36px;
+}
+.services {
+  font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 28px;
+}
+
+
 /* Применится ко всем ссылкам на странице */
 a {
   text-decoration: none;
@@ -166,6 +192,11 @@ line-height: 1.14;
 }
 .work-title {
   color: #757575;
+  font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 30px;
 }
 .adress {
   color: #757575;
