@@ -6,9 +6,10 @@
 #2196F3 Синій фокуc
 */
 :root {
+  
   --primary-text-color: #212121;
   --page-hero-text: #212121;
-  --main-accent: #cc1515;
+  --main-accent: #2196f3;
   --new-accent: #757575;
   --pimary-bg-color: #ffffff;
 }
@@ -26,7 +27,32 @@ line-height: 31px;
   font-size: 26px;
 line-height: 31px;
 }
-
+.logo {
+        color: #2196f3;
+      }
+      .logo2 {
+        color: #000000;
+      }
+      .link { 
+        color: #000000;
+      }
+      .link:hover { 
+        color: #2196f3;
+      }
+      .link:focus {
+       color:  #ffffff;
+      }
+      .links:hover,
+      .links:focus {
+    color: var(--pimary-bg-color);
+    background-color: var(--main-accent);
+}
+.button .link:hover {
+       color:  #2196f3;
+      }
+.button .link:focus {
+  color: orange;
+}
 /* Применится ко всем абзацам на странице */
 p {
   font-size: 16px;
@@ -81,18 +107,10 @@ line-height: 1.14;
 .section-nav-portfolio{
 
 /*Button*/
-.button {
-  color: var(--title-text-color)
-  background-color: var(--pimary-bg-color)
-}
+
+
 /* Шрифти 
 Raleway
 Roboto
 
-*/
-.btn:hover,
-.btn:focus {
-  background-color: black;
-  color: #ffffff
-  border-color: #tomato
-}
+*/  
