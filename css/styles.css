@@ -4,6 +4,7 @@
 #000000 Чорний темніший 
 #757575 Сірий 
 #2196F3 Синій фокуc
+#E5E5E5 сірий фон
 */
 :root {
   
@@ -15,6 +16,7 @@
 }
 body {
   font-family: Roboto, sans-serif;
+  background-color: rgb(156, 151, 151);
 }
 /* Logo  шрифт*/
 .logo{
@@ -48,13 +50,81 @@ line-height: 31px;
     color: var(--pimary-bg-color);
     background-color: var(--main-accent);
 }
-
+.post-link {
+  color:#FFFFFF;
+  font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 30px;
+}
 /* Применится ко всем абзацам на странице */
 p {
   font-size: 16px;
 }
+h1 {
+  font-family: Roboto; sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  color: #FFFFFF;
+}
 h2 {
   font-size: 18px;
+  font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+}
+h3 { font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+}
+h4 {
+  font-family: Roboto; 
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+}
+.best {
+  font-family: Roboto;
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+}
+.comands {
+  font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 42px;
+}
+.people {
+  font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+}
+.claints{
+  font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 42px;
+}
+.join-in {
+  font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
 }
 /* Применится ко всем ссылкам на странице */
 a {
@@ -67,8 +137,6 @@ a {
 .logo:hover {
   --new-accent: rgb(0, 0, 0)
   color: var(--new-accent);
-}
-
 }
 .site-nav .link {
   font-family: Roboto;
@@ -83,6 +151,8 @@ font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 }
+
+
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: #2196f3;
@@ -100,7 +170,15 @@ line-height: 1.14;
 .adress {
   color: #757575;
 }
-.section-nav-portfolio{
+.Contact-Information {
+  font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+
+}
+
 
 /*Button*/
 
