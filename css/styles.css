@@ -90,3 +90,9 @@ Raleway
 Roboto
 
 */
+.btn:hover,
+.btn:focus {
+  background-color: black;
+  color: #ffffff
+  border-color: #tomato
+}
